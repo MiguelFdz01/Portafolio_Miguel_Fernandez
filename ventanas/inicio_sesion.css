@@ -1,0 +1,86 @@
+﻿.container {
+    width: 10px;
+    height: 10px;
+    background: #ff0000;
+}
+
+
+body {
+    background-image: url("rm251-aum-07-f.jpg");
+}
+
+
+.cuadro {
+    background-color: darkred;
+    color: black;
+    width: 675px;
+    padding: 65px;
+    border: 10px solid #000000;
+}
+
+
+#centro {
+    background-color: dimgray;
+    width: 540px;
+    padding: 60px;
+}
+
+
+#parrafo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+
+
+.form-label {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+
+.btn-primary {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+
+.form-control {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150px;
+}
+
+
+.logo img {
+    height: 150px;
+    margin-right: 20px;
+    margin-top: -25px;
+    margin-bottom: -25px;
+}
+
+
+footer {
+    background-color: dimgrey;
+    height: 205px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 50px;
+}
+
+    footer p1 {
+        background-color: darkred;
+        line-height: 15px;
+        font-size: 50px;
+        padding-right: 725px;
+        padding-left: 725px;
+        margin-top: 2850px;
+    }
+
+
+nav {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 25px;
+}
