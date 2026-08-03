@@ -1,0 +1,94 @@
+﻿/* Contenedor de prueba con un tamaño pequeño y fondo rojo */
+.container {
+    width: 10px;                /* Ancho del contenedor */
+    height: 10px;               /* Alto del contenedor */
+    background: #ff0000;        /* Color de fondo rojo */
+}
+
+
+/* Establece la imagen de fondo de toda la página */
+body {
+    background-image: url("rm251-aum-07-f.jpg");
+}
+
+
+/* Contenedor principal que rodea el formulario */
+.cuadro {
+    background-color: darkred;
+    color: black;
+    width: 675px;
+    padding: 65px;
+    border: 10px solid #000000;
+}
+
+
+/* Contenedor interno donde se encuentra el contenido principal */
+#centro {
+    background-color: dimgray;
+    width: 540px;
+    padding: 60px;
+}
+
+
+/* Estilo del título principal */
+#parrafo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+
+
+/* Estilo del texto que muestra los requisitos de la contraseña */
+#parrafo2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 80px;
+}
+
+
+/* Estilo de las etiquetas del formulario */
+.form-label {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+
+/* Estilo de los botones principales de Bootstrap */
+.btn-primary {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+
+/* Estilo de las cajas de texto del formulario */
+.form-control {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+
+/* Configuración de la imagen del logo */
+.logo img {
+    height: 150px;
+    margin-right: 20px;
+    margin-top: -25px;
+    margin-bottom: -25px;
+}
+
+
+/* Estilo del contenedor de navegación donde se encuentra el formulario */
+nav {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 25px;
+}
+
+
+/* Estilo para mostrar mensajes de advertencia o errores */
+.warnings {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: red;
+    padding-top: 20px;
+}

@@ -1,0 +1,99 @@
+﻿/* Configuración de un contenedor de prueba */
+.container {
+    width: 10px;
+    height: 10px;
+    background: #ff0000;
+}
+
+
+/* Configura la imagen de fondo de toda la página */
+body {
+    background-image: url("rm251-aum-07-f.jpg");
+}
+
+
+/* Estilo del cuadro principal que contiene el formulario */
+.cuadro {
+    background-color: darkred;
+    color: black;
+    width: 675px;
+    padding: 65px;
+    border: 10px solid #000000;
+}
+
+
+/* Contenedor central dentro del cuadro principal */
+#centro {
+    background-color: dimgray;
+    width: 540px;
+    padding: 60px;
+}
+
+
+/* Estilo del título "INICIAR SESION" */
+#parrafo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+
+
+/* Estilo de las etiquetas de los campos del formulario */
+.form-label {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+
+/* Estilo de los botones de Bootstrap */
+.btn-primary {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+
+/* Estilo de las cajas de texto del formulario */
+.form-control {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150px;
+}
+
+
+/* Configuración de la imagen del logo */
+.logo img {
+    height: 150px;
+    margin-right: 20px;
+    margin-top: -25px;
+    margin-bottom: -25px;
+}
+
+
+/* Estilo del pie de página */
+footer {
+    background-color: dimgrey;
+    height: 205px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 50px;
+}
+
+
+/* Estilo del elemento p1 dentro del footer */
+footer p1 {
+    background-color: darkred;
+    line-height: 15px;
+    font-size: 50px;
+    padding-right: 725px;
+    padding-left: 725px;
+    margin-top: 2850px;
+}
+
+
+/* Estilo del menú de navegación que contiene el formulario */
+nav {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 25px;
+}

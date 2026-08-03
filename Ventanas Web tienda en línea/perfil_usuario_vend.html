@@ -1,0 +1,262 @@
+﻿<!DOCTYPE html>
+<!-- Indica que el documento está escrito en HTML5 -->
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <!-- Permite utilizar caracteres especiales como acentos y la letra ñ -->
+    <meta charset="utf-8" />
+
+    <!-- Título que aparecerá en la pestaña del navegador -->
+    <title>PERFIL DE USUARIO VENDEDOR</title>
+
+    <!-- Enlace al archivo CSS personalizado -->
+    <link rel="stylesheet" href="perfil_usuario_vend.css" />
+
+    <!-- Enlace a Bootstrap para utilizar sus estilos -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+          crossorigin="anonymous">
+
+    <!-- Estilos CSS internos para separar las opciones del menú -->
+    <style>
+
+        /* Coloca las opciones del menú una junto a otra */
+        .parrafoprueba {
+            display: flex;
+        }
+
+        /* Margen derecho para separar cada opción del menú */
+        .inicio {
+            margin-right: 25px;
+        }
+
+        .lista_compras {
+            margin-right: 25px;
+        }
+
+        .lista_deseos {
+            margin-right: 25px;
+        }
+
+        .perfil {
+            margin-right: 25px;
+        }
+
+        .productos {
+            margin-right: 25px;
+        }
+
+        .buscador {
+            margin-right: 25px;
+        }
+
+        .chat {
+            margin-right: 25px;
+        }
+
+        .consulta_ventas {
+            margin-right: 25px;
+        }
+
+        .cerrar {
+            margin-right: 25px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Encabezado principal de la página -->
+    <header>
+
+        <!-- Contenedor del logotipo -->
+        <div class="logo">
+
+            <!-- Imagen del logo -->
+            <img src="7749078932_c476055cdf_w.jpg" alt="logo" />
+
+        </div>
+
+        <!-- Menú de navegación -->
+        <nav>
+
+            <!-- Contenedor de las opciones del menú -->
+            <div class="parrafoprueba">
+
+                <!-- Enlace a la página de inicio -->
+                <p class="inicio">
+                    <a href="" class="nav-link" target="">Inicio</a>
+                </p>
+
+                <!-- Enlace a la lista de compras -->
+                <p class="lista_compras">
+                    <a href="" class="nav-link" target="">Lista de compras</a>
+                </p>
+
+                <!-- Enlace a la lista de deseos -->
+                <p class="lista_deseos">
+                    <a href="" class="nav-link" target="">Lista de deseos</a>
+                </p>
+
+                <!-- Enlace al perfil del usuario -->
+                <p class="perfil">
+                    <a href="" class="nav-link" target="">Perfil de usuario</a>
+                </p>
+
+                <!-- Enlace a la sección de productos -->
+                <p class="productos">
+                    <a href="" class="nav-link" target="">Productos</a>
+                </p>
+
+                <!-- Enlace al buscador -->
+                <p class="buscador">
+                    <a href="" class="nav-link" target="">Buscador</a>
+                </p>
+
+                <!-- Enlace al chat -->
+                <p class="chat">
+                    <a href="" class="nav-link" target="">Chat</a>
+                </p>
+
+                <!-- Enlace para consultar las ventas -->
+                <p class="consulta_ventas">
+                    <a href="" class="nav-link" target="">Consulta de ventas</a>
+                </p>
+
+                <!-- Enlace para cerrar sesión -->
+                <p class="cerrar">
+                    <a href="" class="nav-link">Cerrar Sesion</a>
+                </p>
+
+            </div>
+
+        </nav>
+
+        <!-- Sección comentada que no se muestra en la página -->
+        <!--
+        <div class="cuadro2">
+            <p1>Perfil</p1>
+        </div>
+        -->
+
+    </header>
+
+    <!-- Espacio entre el encabezado y el contenido -->
+    <br /><br />
+
+    <!-- Centra el contenido principal -->
+    <center>
+
+        <!-- Contenedor principal del perfil -->
+        <div class="cuadro">
+
+            <!-- Contenedor con borde -->
+            <div class="borde">
+
+                <!-- Contenedor interno -->
+                <div id="centro">
+
+                    <!-- Título de la página -->
+                    <p id="parrafo">PERFIL DE USUARIO VENDEDOR</p>
+
+                    <!-- Formulario con la información del vendedor -->
+                    <form>
+
+                        <!-- Campo para mostrar el nombre o usuario -->
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">
+                                Usuario:
+                            </label>
+
+                            <input type="email"
+                                   class="form-control"
+                                   id="nombre"
+                                   aria-describedby="nombre">
+
+                            <!-- Espacio para mostrar mensajes relacionados con el campo -->
+                            <div id="nombre" class="form-text"></div>
+                        </div>
+
+                        <br />
+
+                        <!-- Campo para subir una fotografía de perfil -->
+                        <div class="mb-2">
+
+                            <label for="imagenes">
+                                Foto de perfil:
+                            </label>
+
+                            <input type="file"
+                                   class="form-control"
+                                   name="imagenes"
+                                   id="imagenes">
+
+                        </div>
+
+                        <br />
+
+                        <!-- Sección donde se muestran los productos publicados -->
+                        <div class="mb-3">
+
+                            <label for="exampleInputEmail1" class="form-label">
+                                Productos publicados:
+                            </label>
+
+                            <!-- Primer producto -->
+                            <input type="email"
+                                   class="form-control"
+                                   id="lista1"
+                                   aria-describedby="lista1">
+
+                            <div id="lista1" class="form-text"></div>
+
+                            <br />
+
+                            <!-- Segundo producto -->
+                            <input type="email"
+                                   class="form-control"
+                                   id="lista1"
+                                   aria-describedby="lista1">
+
+                            <div id="lista2" class="form-text"></div>
+
+                            <br />
+
+                            <!-- Tercer producto -->
+                            <input type="email"
+                                   class="form-control"
+                                   id="lista1"
+                                   aria-describedby="lista1">
+
+                            <div id="lista3" class="form-text"></div>
+
+                            <br />
+
+                            <!-- Cuarto producto -->
+                            <input type="email"
+                                   class="form-control"
+                                   id="lista1"
+                                   aria-describedby="lista1">
+
+                            <div id="lista4" class="form-text"></div>
+
+                            <br />
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </center>
+
+</body>
+
+</html>
