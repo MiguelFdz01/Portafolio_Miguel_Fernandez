@@ -1,0 +1,172 @@
+﻿/* Contenedor de prueba con dimensiones pequeñas y fondo rojo */
+.container {
+    width: 10px;
+    height: 10px;
+    background: #ff0000;
+}
+
+
+/* Aplica una imagen de fondo a toda la página */
+body {
+    background-image: url("black-and-gray-grunge-texture-background-vector.jpg");
+}
+
+
+/* Barra de navegación superior */
+header {
+    display: flex; /* Coloca los elementos en una fila */
+    background-color: brown; /* Color de fondo de la barra */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 15px; /* Espaciado interno */
+    font-size: 25px; /* Tamaño de letra */
+    justify-content: normal; /* Distribución normal de los elementos */
+}
+
+
+/* Estilo general del menú de navegación */
+nav {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 25px;
+}
+
+
+/* Estilo de los menús desplegables */
+.form-select {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 25px;
+}
+
+
+/* Contenedor del logotipo */
+.logo {
+    display: flex;
+}
+
+    /* Configuración de la imagen del logotipo */
+    .logo img {
+        height: 150px; /* Altura del logo */
+        margin-right: 20px; /* Espacio a la derecha del logo */
+    }
+
+
+/* Estilo de los enlaces del menú */
+nav a {
+    padding-right: 15px; /* Espacio entre enlaces */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black; /* Color del texto */
+    font-size: 50px; /* Tamaño de letra */
+}
+
+
+/* Color de fondo para tarjetas Bootstrap */
+.card {
+    background-color: brown;
+}
+
+
+/* Contenedor de prueba */
+.container {
+    width: 10px;
+    height: 10px;
+    background: #ff0000;
+}
+
+
+/* Cuadro principal donde se muestra el contenido */
+.cuadro {
+    background-color: darkred; /* Fondo rojo oscuro */
+    color: black; /* Color del texto */
+    width: 800px; /* Ancho del cuadro */
+    height: 1350px; /* Alto del cuadro */
+    padding: 50px; /* Espacio interno */
+    border: 10px solid white; /* Borde blanco */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    margin-left: 0px;
+    margin-top: 50px; /* Separación superior */
+}
+
+
+/* Estilo del título principal */
+#parrafo {
+    margin-top: -40px; /* Ajusta la posición vertical */
+    font-size: 50px; /* Tamaño del texto */
+    margin-bottom: 25px; /* Espacio inferior */
+}
+
+
+/* Estilo de los campos de entrada */
+.form-control {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+
+
+/* Estilo de los botones principales */
+.btn-primary {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150px; /* Tamaño del texto del botón */
+    margin-right: 15px; /* Espacio a la derecha */
+    margin-top: 15px; /* Espacio superior */
+}
+
+
+/* Configuración adicional para los menús desplegables */
+.form-select {
+    margin-right: 15px;
+    padding: 25px; /* Espacio interno */
+    font-size: 100px; /* Tamaño del texto */
+}
+
+
+/* Pie de página */
+footer {
+    background-color: dimgrey; /* Fondo gris */
+    height: 205px; /* Altura */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center; /* Centra el texto */
+    line-height: 40px; /* Espaciado entre líneas */
+    margin-top: 100px; /* Separación respecto al contenido */
+}
+
+
+    /* Título del pie de página */
+    footer p1 {
+        background-color: darkred;
+        line-height: 15px;
+        font-size: 50px;
+        padding-right: 725px;
+        padding-left: 725px;
+        margin-top: 2850px;
+    }
+
+
+/* Cuadro que muestra la información del usuario */
+.cuadro2 {
+    background-color: orangered; /* Fondo naranja */
+    color: black;
+    width: 225px;
+    height: 175px;
+    padding: 7px;
+    border: 10px solid white;
+    margin-right: 100px;
+    padding-left: 80px;
+    padding-right: 450px;
+    margin-right: 50px;
+    margin-left: 275px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    text-align: left; /* Alinea el texto a la izquierda */
+    margin-top: 0px;
+}
+
+
+/* Contenedor que organiza los elementos del menú horizontalmente */
+.parrafoprueba {
+    display: flex;
+    margin-left: auto; /* Empuja el menú hacia la derecha */
+}

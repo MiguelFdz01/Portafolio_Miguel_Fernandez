@@ -1,0 +1,223 @@
+﻿/* ===========================
+   Fondo de la página
+   =========================== */
+
+/* Coloca una imagen como fondo de toda la página */
+body {
+    background-image: url("black-and-gray-grunge-texture-background-vector.jpg");
+}
+
+
+/* ===========================
+   Barra de navegación
+   =========================== */
+
+/* Configura el encabezado principal utilizando Flexbox */
+header {
+    display: flex; /* Acomoda los elementos en una fila */
+    background-color: brown; /* Color de fondo del encabezado */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 15px; /* Espacio interno */
+    font-size: 25px; /* Tamaño base del texto */
+    justify-content: normal; /* Mantiene la alineación por defecto */
+}
+
+
+/* ===========================
+   Menú de navegación
+   =========================== */
+
+/* Estilo general del menú de navegación */
+nav {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 25px;
+}
+
+
+/* ===========================
+   Lista desplegable
+   =========================== */
+
+/* Da formato a los elementos <select> */
+.form-select {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 50px;
+}
+
+
+/* ===========================
+   Logo
+   =========================== */
+
+/* Contenedor del logo */
+.logo {
+    display: flex;
+}
+
+    /* Ajusta el tamaño y separación de la imagen del logo */
+    .logo img {
+        height: 150px;
+        margin-right: 20px;
+    }
+
+
+/* ===========================
+   Enlaces del menú
+   =========================== */
+
+/* Personaliza la apariencia de los enlaces de navegación */
+nav a {
+    padding-right: 15px; /* Espacio entre enlaces */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 50px;
+}
+
+
+/* ===========================
+   Tarjetas (Bootstrap)
+   =========================== */
+
+/* Cambia el color de fondo de las tarjetas */
+.card {
+    background-color: brown;
+}
+
+
+/* ===========================
+   Contenedor de prueba
+   =========================== */
+
+/* Contenedor pequeño utilizado para pruebas o diseño */
+.container {
+    width: 10px;
+    height: 10px;
+    background: #ff0000;
+}
+
+
+/* ===========================
+   Cuadro principal
+   =========================== */
+
+/* Contenedor donde se encuentra el contenido principal */
+.cuadro {
+    background-color: darkred; /* Color de fondo */
+    color: black; /* Color del texto */
+    width: 800px; /* Ancho del cuadro */
+    height: 700px; /* Alto del cuadro */
+    padding: 50px; /* Espacio interno */
+    border: 10px solid white; /* Borde blanco */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    margin-left: 0px;
+    margin-top: 50px; /* Separación superior */
+}
+
+
+/* ===========================
+   Título del cuadro
+   =========================== */
+
+/* Da formato al título principal */
+#parrafo {
+    margin-top: -40px;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+
+/* ===========================
+   Campos del formulario
+   =========================== */
+
+/* Personaliza los campos de entrada y áreas de texto */
+.form-control {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+
+
+/* ===========================
+   Botones
+   =========================== */
+
+/* Personaliza los botones principales */
+.btn-primary {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+
+/* Ajusta el tamaño y espacio de los select */
+.form-select {
+    margin-right: 15px;
+    padding: 25px;
+    font-size: 100px;
+}
+
+
+/* ===========================
+   Pie de página
+   =========================== */
+
+/* Estilo general del footer */
+footer {
+    background-color: dimgrey;
+    height: 205px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 100px;
+}
+
+    /* Da formato al título del pie de página */
+    footer p1 {
+        background-color: darkred;
+        line-height: 15px;
+        font-size: 50px;
+        padding-right: 725px;
+        padding-left: 725px;
+        margin-top: 2850px;
+    }
+
+
+/* ===========================
+   Cuadro de perfil
+   =========================== */
+
+/* Caja donde se muestra el perfil del usuario */
+.cuadro2 {
+    background-color: orangered;
+    color: black;
+    width: 225px;
+    height: 175px;
+    padding: 7px;
+    border: 10px solid white;
+    margin-right: 100px;
+    padding-left: 80px;
+    padding-right: 450px;
+    margin-right: 50px;
+    margin-left: 275px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    margin-top: 0px;
+}
+
+
+/* ===========================
+   Contenedor de enlaces
+   =========================== */
+
+/* Organiza horizontalmente las opciones del menú */
+.parrafoprueba {
+    display: flex;
+    margin-left: auto;
+}

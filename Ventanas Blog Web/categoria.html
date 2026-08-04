@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html>
+
+<!-- Indica que el documento utiliza HTML5 -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <!-- Configura la codificación de caracteres -->
+    <meta charset="UTF-8">
+
+    <!-- Hace que el navegador use el motor de renderizado más reciente -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Permite que la página sea adaptable a dispositivos móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título que aparece en la pestaña del navegador -->
+    <title> CATEGORIAS </title>
+
+    <!-- Hoja de estilos personalizada -->
+    <link rel="stylesheet" href="categoria.css" />
+
+    <!-- Librería Bootstrap para utilizar estilos y componentes prediseñados -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+          crossorigin="anonymous">
+
+    <!-- Estilos internos para separar los elementos del menú -->
+    <style>
+
+        /* Coloca las opciones del menú en una misma fila */
+        .parrafoprueba {
+            display: flex;
+        }
+
+        /* Agrega espacio entre cada opción del menú */
+        .inicio {
+            margin-right: 25px;
+        }
+
+        .crear {
+            margin-right: 25px;
+        }
+
+        .perfil {
+            margin-right: 25px;
+        }
+
+        .cerrar {
+            margin-right: 25px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Encabezado principal -->
+    <header>
+
+        <!-- Contenedor del logotipo -->
+        <div class="logo">
+
+            <!-- Imagen del logotipo -->
+            <img src="av8ao2zs5pq51.jpg" alt="logo" />
+
+        </div>
+
+        <!-- Barra de navegación -->
+        <nav>
+
+            <!-- Contenedor de las opciones del menú -->
+            <div class="parrafoprueba">
+
+                <!-- Enlace a la página principal -->
+                <p class="inicio">
+                    <a href="dashboard.html" class="nav-link" target="">
+                        Inicio
+                    </a>
+                </p>
+
+                <!-- Enlace para crear una publicación -->
+                <p class="crear">
+                    <a href="crear publicacion.html" class="nav-link" target="">
+                        Crear Publicacion
+                    </a>
+                </p>
+
+                <!-- Enlace al perfil del usuario -->
+                <p class="perfil">
+                    <a href="perfil de usuario.html" class="nav-link" target="">
+                        Perfil de Usuario
+                    </a>
+                </p>
+
+                <!-- Enlace para cerrar sesión -->
+                <p class="cerrar">
+                    <a href="" class="nav-link">
+                        Cerrar Sesion
+                    </a>
+                </p>
+
+            </div>
+
+            <!-- Sección de búsqueda -->
+            <div class="mb-2">
+
+                <!-- Etiqueta del menú desplegable -->
+                <label for="navegacion">
+                    Busqueda de preguntas:
+                </label>
+
+                <!-- Lista de preguntas -->
+                <select class="form-select"
+                        name="navegacion"
+                        id="navegacion">
+
+                    <option value="espaciodef"></option>
+
+                    <option value="pregunta1">Pregunta 1</option>
+                    <option value="pregunta2">Pregunta 2</option>
+                    <option value="pregunta3">Pregunta 3</option>
+                    <option value="pregunta4">Pregunta 4</option>
+                    <option value="pregunta5">Pregunta 5</option>
+                    <option value="pregunta6">Pregunta 6</option>
+                    <option value="pregunta7">Pregunta 7</option>
+                    <option value="pregunta8">Pregunta 8</option>
+
+                </select>
+
+                <!-- Botón para realizar la búsqueda -->
+                <button type="submit" class="btn btn-primary">
+                    Buscar
+                </button>
+
+                <!-- Formulario para acceder a la búsqueda avanzada -->
+                <form action="busqueda avanzada.html" target="">
+
+                    <button type="submit" class="btn btn-primary">
+                        Busqueda avanzada
+                    </button>
+
+                </form>
+
+            </div>
+
+        </nav>
+
+        <!-- Cuadro donde se muestra el perfil del usuario -->
+        <div class="cuadro">
+
+            <p1>Perfil</p1>
+
+        </div>
+
+    </header>
+
+    <!-- Espacio entre el encabezado y el contenido -->
+    <br><br><br><br>
+
+    <!-- Centra el contenido principal -->
+    <center>
+
+        <!-- Contenedor principal -->
+        <div class="cuadro2">
+
+            <div class="borde">
+
+                <div id="centro">
+
+                    <!-- Título de la página -->
+                    <p id="parrafo">
+                        CATEGORIAS
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Saltos de línea para separar el contenido del pie de página -->
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br>
+
+        <!-- Pie de página -->
+        <footer>
+
+            <div class="footer-bottom">
+
+                <br>
+
+                <!-- Título del apartado de autores -->
+                <p1>
+                    AUTORES DE LA PAGINA:
+                </p1>
+
+                <!-- Nombres de los desarrolladores -->
+                <p>Miguel Angel Fernández del Bosque</p>
+
+                <p>Francisco Daniel Mata Mendoza</p>
+
+                <br>
+
+            </div>
+
+        </footer>
+
+    </center>
+
+</body>
+
+</html>

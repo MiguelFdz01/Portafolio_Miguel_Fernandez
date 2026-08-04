@@ -1,0 +1,277 @@
+﻿<!DOCTYPE html>
+<!-- Indica que el documento utiliza la versión HTML5 -->
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <!-- Permite utilizar caracteres especiales como acentos y la letra ñ -->
+    <meta charset="utf-8" />
+
+    <!-- Título que aparece en la pestaña del navegador -->
+    <title>REGISTRAR USUARIO</title>
+
+    <!-- Hoja de estilos personalizada -->
+    <link rel="stylesheet" href="registro usuario.css" />
+
+    <!-- Biblioteca Bootstrap para utilizar estilos prediseñados -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+          crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- Archivo JavaScript encargado de las validaciones -->
+    <script src="registro_usuario.js"></script>
+
+    <!-- Centra el contenido de la página -->
+    <center>
+
+        <br /><br />
+
+        <!-- Contenedor principal del formulario -->
+        <div class="cuadro">
+
+            <div class="borde">
+
+                <div id="centro">
+
+                    <!-- Contenedor del logotipo -->
+                    <div class="logo">
+
+                        <!-- Imagen del logotipo -->
+                        <img src="av8ao2zs5pq51.jpg" alt="logo" />
+
+                        <br /><br /><br />
+
+                        <!-- Título del formulario -->
+                        <p id="parrafo">REGISTRAR USUARIO</p>
+
+                        <nav>
+
+                            <!-- Formulario que al enviarse redirige a la página de inicio de sesión -->
+                            <form action="iniciar sesion.html">
+
+                                <!-- Campo para escribir el nombre -->
+                                <div class="mb-3">
+
+                                    <label for="nombre" class="form-label">
+                                        Nombre(s):
+                                    </label>
+
+                                    <input type="text"
+                                           class="form-control"
+                                           id="nombre"
+                                           pattern="^[a-zA-ZÀ-ÿ\u00f1\u00d1]+(\s*[a-zA-ZÀ-ÿ\u00f1\u00d1]*)*[a-zA-ZÀ-ÿ\u00f1\u00d1]+$"
+                                           minlength="2"
+                                           title="Sólo letras"
+                                           accept="text/*"
+                                           required>
+
+                                </div>
+
+                                <br />
+
+                                <!-- Campo para escribir los apellidos -->
+                                <div class="mb-3">
+
+                                    <label for="apellidos" class="form-label">
+                                        Apellidos:
+                                    </label>
+
+                                    <input type="text"
+                                           class="form-control"
+                                           id="apellidos"
+                                           pattern="^[a-zA-ZÀ-ÿ\u00f1\u00d1]+(\s*[a-zA-ZÀ-ÿ\u00f1\u00d1]*)*[a-zA-ZÀ-ÿ\u00f1\u00d1]+$"
+                                           minlength="4"
+                                           title="Sólo letras"
+                                           accept="text/*"
+                                           required>
+
+                                </div>
+
+                                <br />
+
+                                <!-- Campo para seleccionar la fecha de nacimiento -->
+                                <div class="mb-3">
+
+                                    <label for="nacimiento" class="form-label">
+                                        Fecha de nacimiento:
+                                    </label>
+
+                                    <input type="date"
+                                           id="nacimiento"
+                                           title="Antes del día actual"
+                                           accept="date/*"
+                                           required>
+
+                                </div>
+
+                                <br />
+
+                                <!-- Campo para ingresar el correo electrónico -->
+                                <div class="mb-3">
+
+                                    <label for="correo" class="form-label">
+                                        Correo electronico:
+                                    </label>
+
+                                    <input type="email"
+                                           class="form-control"
+                                           id="correo"
+                                           aria-describedby="correo"
+                                           accept="email/*"
+                                           required>
+
+                                </div>
+
+                                <br />
+
+                                <!-- Campo para escribir el nombre de usuario -->
+                                <div class="mb-3">
+
+                                    <label for="usuario" class="form-label">
+                                        Nombre de usuario:
+                                    </label>
+
+                                    <input type="text"
+                                           class="form-control"
+                                           id="usuario"
+                                           aria-describedby="usuario"
+                                           accept="text/*"
+                                           required>
+
+                                </div>
+
+                                <br />
+
+                                <!-- Campo para ingresar la contraseña -->
+                                <div class="mb-3">
+
+                                    <label for="contraseña" class="form-label">
+                                        Contraseña:
+                                    </label>
+
+                                    <input type="password"
+                                           name="contraseña"
+                                           class="form-control"
+                                           id="contraseña"
+                                           pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
+                                           accept="password/*"
+                                           required>
+
+                                    <!-- Espacio para mostrar mensajes de ayuda -->
+                                    <div id="contraseña" class="form-text"></div>
+
+                                </div>
+
+                                <!-- Requisitos que debe cumplir la contraseña -->
+                                <p id="parrafo2">
+                                    La contraseña debe tener:<br>
+                                    8 caractéres <br>
+                                    Una letra mayúscula <br>
+                                    Una letra minúscula <br>
+                                    Un número <br>
+                                    Un signo de puntuación <br>
+                                </p>
+
+                                <!-- Campo para confirmar la contraseña -->
+                                <div class="mb-3">
+
+                                    <label for="confcontraseña" class="form-label">
+                                        Confirmar contraseña:
+                                    </label>
+
+                                    <input type="password"
+                                           name="confcontraseña"
+                                           class="form-control"
+                                           id="confcontraseña"
+                                           pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
+                                           accept="password/*"
+                                           required>
+
+                                    <!-- Espacio para mostrar mensajes de validación -->
+                                    <div id="confcontraseña" class="form-text"></div>
+
+                                </div>
+
+                                <br />
+
+                                <!-- Campo para subir una imagen de perfil -->
+                                <div class="mb-3">
+
+                                    <label for="foto" class="form-label">
+                                        Imagen de perfil:
+                                    </label>
+
+                                    <input id="foto"
+                                           name="imagen"
+                                           class="form-control"
+                                           type="file"
+                                           accept="image/*"
+                                           required>
+
+                                </div>
+
+                                <br />
+
+                                <!-- Se vuelve a cargar el archivo JavaScript -->
+                                <script src="registro_usuario.js"></script>
+
+                                <!-- Botón para enviar el formulario -->
+                                <button type="submit" class="btn btn-primary">
+                                    Registro completo
+                                </button>
+
+                            </form>
+
+                            <br />
+
+                            <!-- Enlace para regresar a la página de inicio de sesión -->
+                            <p>
+                                <a class="link-dark" href="iniciar sesion.html">
+                                    Volver
+                                </a>
+                            </p>
+
+                        </nav>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <br /><br /><br /><br />
+
+        <!-- Pie de página -->
+        <footer>
+
+            <div class="footer-bottom">
+
+                <br />
+
+                <!-- Título del pie de página -->
+                <p1>AUTORES DE LA PAGINA:</p1>
+
+                <!-- Nombre del primer autor -->
+                <p>Miguel Angel Fernández del Bosque</p>
+
+                <!-- Nombre del segundo autor -->
+                <p>Francisco Daniel Mata Mendoza</p>
+
+                <br />
+
+            </div>
+
+        </footer>
+
+    </center>
+
+</body>
+
+</html>

@@ -1,0 +1,208 @@
+﻿/* ==========================================
+   Fondo de la página
+   Coloca una imagen como fondo del sitio.
+========================================== */
+body {
+    background-image: url("black-and-gray-grunge-texture-background-vector.jpg");
+}
+
+
+/* ==========================================
+   Encabezado (Header)
+   Contiene el logotipo y la barra de navegación.
+========================================== */
+header {
+    display: flex; /* Coloca los elementos en una fila */
+    background-color: brown; /* Color de fondo del encabezado */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 15px; /* Espacio interno */
+    font-size: 25px; /* Tamaño del texto */
+    justify-content: normal; /* Mantiene la posición normal de los elementos */
+}
+
+
+/* ==========================================
+   Barra de navegación
+   Define el estilo general del menú.
+========================================== */
+nav {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 25px;
+}
+
+
+/* ==========================================
+   Menús desplegables (Select)
+========================================== */
+.form-select {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 50px;
+}
+
+
+/* ==========================================
+   Contenedor del logotipo
+========================================== */
+.logo {
+    display: flex; /* Permite acomodar correctamente el logotipo */
+}
+
+
+    /* ==========================================
+   Imagen del logotipo
+========================================== */
+    .logo img {
+        height: 150px; /* Altura del logotipo */
+        margin-right: 20px; /* Espacio entre el logo y el menú */
+    }
+
+
+/* ==========================================
+   Enlaces del menú de navegación
+========================================== */
+nav a {
+    padding-right: 15px; /* Espacio entre enlaces */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 50px;
+}
+
+
+/* ==========================================
+   Tarjetas (Bootstrap Card)
+========================================== */
+.card {
+    background-color: brown; /* Cambia el color de fondo de las tarjetas */
+}
+
+
+/* ==========================================
+   Contenedor de prueba
+   (No parece utilizarse en la página)
+========================================== */
+.container {
+    width: 5px;
+    height: 5px;
+    background: #ff0000;
+}
+
+
+/* ==========================================
+   Cuadro del perfil de usuario
+========================================== */
+.cuadro {
+    background-color: orangered; /* Color de fondo */
+    color: black; /* Color del texto */
+    width: 225px; /* Ancho */
+    height: 175px; /* Alto */
+    padding: 7px; /* Espacio interno */
+    border: 10px solid white; /* Borde blanco */
+    /* Márgenes y separación */
+    margin-right: 100px;
+    padding-left: 80px;
+    padding-right: 450px;
+    margin-right: 50px;
+    margin-left: 275px;
+    /* Fuente y alineación */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    text-align: left;
+}
+
+
+/* ==========================================
+   Pie de página
+========================================== */
+footer {
+    background-color: dimgrey; /* Fondo gris */
+    height: 205px; /* Altura */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center; /* Centra el texto */
+    line-height: 40px; /* Espacio entre líneas */
+    margin-top: 1200px; /* Separación respecto al contenido */
+}
+
+
+    /* ==========================================
+   Título del pie de página
+========================================== */
+    footer p1 {
+        background-color: darkred;
+        line-height: 15px;
+        font-size: 50px;
+        padding-right: 725px;
+        padding-left: 725px;
+        margin-top: 2850px;
+    }
+
+
+/* ==========================================
+   Contenedor de los párrafos del menú
+========================================== */
+.parrafoprueba {
+    display: flex; /* Coloca los elementos en una fila */
+    margin-left: auto; /* Empuja el menú hacia la derecha */
+}
+
+
+/* ==========================================
+   Botones principales
+========================================== */
+.btn-primary {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150px; /* Tamaño del texto */
+    margin-right: 15px; /* Espacio a la derecha */
+    margin-top: 15px; /* Espacio superior */
+}
+
+
+/* ==========================================
+   Configuración adicional del menú desplegable
+========================================== */
+.form-select {
+    margin-right: 15px; /* Espacio entre elementos */
+    padding: 15px; /* Espacio interno */
+    font-size: 100px; /* Tamaño del texto */
+}
+
+
+/* ==========================================
+   Botón secundario
+========================================== */
+.btn-primary1 {
+    margin-right: 15px; /* Separación respecto a otros elementos */
+    display: flex; /* Usa Flexbox */
+    justify-content: normal; /* Mantiene la alineación normal */
+}
+
+
+/* ==========================================
+   Cuadro principal del contenido
+========================================== */
+.cuadro2 {
+    background-color: darkred; /* Fondo rojo oscuro */
+    color: black; /* Color del texto */
+    width: 800px; /* Ancho */
+    height: 100px; /* Alto */
+    padding: 50px; /* Espacio interno */
+    border: 10px solid white; /* Borde blanco */
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+
+
+/* ==========================================
+   Título del cuadro principal
+========================================== */
+#parrafo {
+    margin-top: -40px; /* Mueve el título hacia arriba */
+    font-size: 50px; /* Tamaño del texto */
+    margin-bottom: 25px; /* Espacio inferior */
+}

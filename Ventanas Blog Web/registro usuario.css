@@ -1,0 +1,118 @@
+﻿/* Contenedor pequeño (actualmente no se utiliza en la página) */
+.container {
+    width: 10px; /* Ancho del contenedor */
+    height: 10px; /* Alto del contenedor */
+    background: #ff0000; /* Color de fondo rojo */
+}
+
+
+/* Imagen de fondo de toda la página */
+body {
+    background-image: url("f.elconfidencial.com_original_d9e_66d_793_d9e66d793adbc994841e60850a17e61c.jpg");
+}
+
+
+/* Cuadro principal que contiene el formulario */
+.cuadro {
+    background-color: darkred; /* Color de fondo rojo oscuro */
+    color: black; /* Color del texto */
+    width: 675px; /* Ancho del cuadro */
+    padding: 65px; /* Espacio interno */
+    border: 10px solid #000000; /* Borde negro */
+}
+
+
+/* Cuadro interno donde se encuentra el contenido */
+#centro {
+    background-color: dimgray; /* Color de fondo gris */
+    width: 540px; /* Ancho del cuadro */
+    padding: 60px; /* Espacio interno */
+}
+
+
+/* Título principal del formulario */
+#parrafo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Tipo de letra */
+    font-size: 40px; /* Tamaño del texto */
+}
+
+
+/* Texto que muestra los requisitos de la contraseña */
+#parrafo2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px; /* Tamaño de la letra */
+    text-align: left; /* Alinea el texto a la izquierda */
+    margin-left: 80px; /* Separa el texto del borde izquierdo */
+}
+
+
+/* Estilo de las etiquetas de los campos del formulario */
+.form-label {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+
+/* Estilo de los botones principales */
+.btn-primary {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+
+/* Estilo de los campos de entrada del formulario */
+.form-control {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+
+/* Tamaño y posición de la imagen del logotipo */
+.logo img {
+    height: 150px; /* Altura del logotipo */
+    margin-right: 20px; /* Espacio a la derecha */
+    margin-top: -25px; /* Desplaza ligeramente la imagen hacia arriba */
+    margin-bottom: -25px; /* Reduce el espacio debajo de la imagen */
+}
+
+
+/* Pie de página */
+footer {
+    background-color: dimgrey; /* Color de fondo gris */
+    height: 205px; /* Altura del pie de página */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px; /* Tamaño del texto */
+    justify-content: center; /* Centra los elementos (si usa Flexbox) */
+    text-align: center; /* Centra el texto */
+    line-height: 40px; /* Espaciado entre líneas */
+    margin-top: 50px; /* Separación respecto al contenido superior */
+}
+
+
+    /* Estilo del título dentro del pie de página */
+    footer p1 {
+        background-color: darkred; /* Fondo rojo oscuro */
+        line-height: 15px; /* Espaciado entre líneas */
+        font-size: 50px; /* Tamaño del texto */
+        padding-right: 725px; /* Espacio interno derecho */
+        padding-left: 725px; /* Espacio interno izquierdo */
+        margin-top: 2850px; /* Margen superior */
+    }
+
+
+/* Estilo general del menú de navegación */
+nav {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black; /* Color del texto */
+    font-size: 25px; /* Tamaño de la letra */
+}
+
+
+/* Estilo para mostrar mensajes de advertencia o error */
+.warnings {
+    width: 200px; /* Ancho del cuadro del mensaje */
+    text-align: center; /* Centra el texto */
+    margin: auto; /* Centra el contenedor horizontalmente */
+    color: red; /* Color rojo para indicar advertencias */
+    padding-top: 20px; /* Espacio superior */
+}

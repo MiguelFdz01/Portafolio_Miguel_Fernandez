@@ -1,0 +1,99 @@
+﻿/* Contenedor de prueba con un tamaño pequeño y fondo rojo */
+.container {
+    width: 10px;
+    height: 10px;
+    background: #ff0000;
+}
+
+
+/* Establece una imagen como fondo de toda la página */
+body {
+    background-image: url("f.elconfidencial.com_original_d9e_66d_793_d9e66d793adbc994841e60850a17e61c.jpg");
+}
+
+
+/* Contenedor principal donde se muestra el formulario */
+.cuadro {
+    background-color: darkred; /* Color de fondo */
+    color: black; /* Color del texto */
+    width: 675px; /* Ancho del cuadro */
+    padding: 65px; /* Espacio interno */
+    border: 10px solid #000000; /* Borde negro */
+}
+
+
+/* Contenedor interno que organiza el contenido del formulario */
+#centro {
+    background-color: dimgray; /* Fondo gris */
+    width: 540px; /* Ancho del contenedor */
+    padding: 60px; /* Espacio interno */
+}
+
+
+/* Estilo del título principal */
+#parrafo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+
+
+/* Estilo de las etiquetas de los campos del formulario */
+.form-label {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+
+/* Estilo de los botones principales */
+.btn-primary {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+
+/* Estilo de los campos de entrada del formulario */
+.form-control {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150px;
+}
+
+
+/* Configuración de la imagen del logotipo */
+.logo img {
+    height: 150px; /* Altura del logo */
+    margin-right: 20px; /* Espacio a la derecha */
+    margin-top: -25px; /* Ajuste de posición superior */
+    margin-bottom: -25px; /* Ajuste de posición inferior */
+}
+
+
+/* Estilo general del pie de página */
+footer {
+    background-color: dimgrey; /* Fondo gris */
+    height: 205px; /* Altura del pie */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    justify-content: center; /* Centra el contenido (en contenedores flex) */
+    text-align: center; /* Centra el texto */
+    line-height: 40px; /* Espaciado entre líneas */
+    margin-top: 50px; /* Separación respecto al contenido */
+}
+
+
+    /* Estilo del título dentro del pie de página */
+    footer p1 {
+        background-color: darkred; /* Fondo rojo oscuro */
+        line-height: 15px; /* Espaciado entre líneas */
+        font-size: 50px; /* Tamaño del texto */
+        padding-right: 725px; /* Espacio interno derecho */
+        padding-left: 725px; /* Espacio interno izquierdo */
+        margin-top: 2850px; /* Margen superior */
+    }
+
+
+/* Estilo del contenido de la barra de navegación */
+nav {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black; /* Color del texto */
+    font-size: 25px; /* Tamaño de letra */
+}

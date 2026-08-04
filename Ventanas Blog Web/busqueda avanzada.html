@@ -1,0 +1,273 @@
+﻿<!DOCTYPE html>
+
+<!-- Indica que el documento utiliza HTML5 -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <!-- Configuración de codificación de caracteres -->
+    <meta charset="utf-8" />
+
+    <!-- Título que aparece en la pestaña del navegador -->
+    <title> BUSQUEDA AVANZADA </title>
+
+    <!-- Hoja de estilos personalizada -->
+    <link rel="stylesheet" href="busqueda avanzada.css" />
+
+    <!-- Librería Bootstrap para utilizar estilos y componentes -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Estilos internos para separar las opciones del menú -->
+    <style>
+
+        /* Contenedor flexible para acomodar los enlaces horizontalmente */
+        .parrafoprueba {
+            display: flex;
+        }
+
+        /* Espacio entre cada opción del menú */
+        .inicio {
+            margin-right: 25px;
+        }
+
+        .crear {
+            margin-right: 25px;
+        }
+
+        .perfil {
+            margin-right: 25px;
+        }
+
+        .cerrar {
+            margin-right: 25px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Encabezado principal de la página -->
+    <header>
+
+        <!-- Logo del sitio -->
+        <div class="logo">
+
+            <img src="av8ao2zs5pq51.jpg" alt="logo" />
+
+        </div>
+
+        <!-- Barra de navegación -->
+        <nav>
+
+            <!-- Menú principal -->
+            <div class="parrafoprueba">
+
+                <!-- Enlace al inicio -->
+                <p class="inicio" target="_blank">
+                    <a href="dashboard.html" class="nav-link"> Inicio </a>
+                </p>
+
+                <!-- Enlace para crear una publicación -->
+                <p class="crear" target="_blank">
+                    <a href="crear publicacion.html" class="nav-link"> Crear Publicacion </a>
+                </p>
+
+                <!-- Enlace al perfil del usuario -->
+                <p class="perfil" target="_blank">
+                    <a href="perfil de usuario.html" class="nav-link"> Perfil de Usuario </a>
+                </p>
+
+                <!-- Opción para cerrar sesión -->
+                <p class="cerrar">
+                    <a href="" class="nav-link"> Cerrar Sesion </a>
+                </p>
+
+            </div>
+
+            <!-- Sección de búsqueda rápida -->
+            <div class="mb-2">
+
+                <!-- Etiqueta del selector -->
+                <label for="navegacion">Busqueda de preguntas:</label>
+
+                <!-- Lista desplegable de preguntas -->
+                <select class="form-select" name="navegacion" id="navegacion">
+
+                    <option value="espaciodef"> </option>
+                    <option value="pregunta1">Pregunta 1</option>
+                    <option value="pregunta2">Pregunta 2</option>
+                    <option value="pregunta3">Pregunta 3</option>
+                    <option value="pregunta4">Pregunta 4</option>
+                    <option value="pregunta5">Pregunta 5</option>
+                    <option value="pregunta6">Pregunta 6</option>
+                    <option value="pregunta7">Pregunta 7</option>
+                    <option value="pregunta8">Pregunta 8</option>
+
+                </select>
+
+                <!-- Botón para realizar la búsqueda -->
+                <button type="submit" class="btn btn-primary"> Buscar </button>
+
+                <!-- Botón para acceder a la búsqueda avanzada -->
+                <form action="busqueda avanzada.html" target="">
+
+                    <button type="submit" class="btn btn-primary">
+                        Busqueda avanzada
+                    </button>
+
+                </form>
+
+            </div>
+
+        </nav>
+
+        <!-- Cuadro donde se muestra el perfil del usuario -->
+        <div class="cuadro2">
+
+            <p1> Perfil </p1>
+
+        </div>
+
+    </header>
+
+    <!-- Espacios para separar el encabezado del contenido -->
+    <br /> <br /> <br /> <br />
+
+    <center>
+
+        <!-- Contenedor principal del formulario -->
+        <div class="cuadro">
+
+            <div class="borde">
+
+                <div id="centro">
+
+                    <!-- Título del formulario -->
+                    <p id="parrafo"> BUSQUEDA AVANZADA </p>
+
+                    <!-- Formulario de búsqueda -->
+                    <form>
+
+                        <!-- Campo para escribir el nombre o contenido de una publicación -->
+                        <div class="mb-2">
+
+                            <label for="descripcion">
+                                Buscar publicación:
+                            </label>
+
+                            <textarea class="form-control"
+                                      name="descripcion"
+                                      id="buscarpubav">
+                            </textarea>
+
+                        </div>
+
+                        <!-- Selector de categorías -->
+                        <div class="mb-2">
+
+                            <br />
+
+                            <label for="categorias">
+                                Buscar por categoría:
+                            </label>
+
+                            <select class="form-select"
+                                    name="categorias"
+                                    id="categorias">
+
+                                <option value="animales">Animales</option>
+                                <option value="arquitectura">Arquitectura</option>
+                                <option value="programacion">Programacion</option>
+                                <option value="videojuegos">Videojuegos</option>
+                                <option value="tecnologia">Tecnología</option>
+                                <option value="musica">Música</option>
+                                <option value="deportes">Deportes</option>
+                                <option value="automoviles">Automoviles</option>
+                                <option value="ropa">Ropa</option>
+                                <option value="cultura">Cultura</option>
+                                <option value="gastronomia">Gastronomía</option>
+                                <option value="memes">Memes</option>
+
+                            </select>
+
+                        </div>
+
+                        <br />
+
+                        <!-- Búsqueda utilizando una fecha o un rango de fechas -->
+                        <div class="mb-3">
+
+                            <label for="textobuscar">
+                                Buscar por rango de fecha:
+                            </label>
+
+                            <!-- Campo para ingresar una fecha -->
+                            <input type="text"
+                                   class="form-control"
+                                   name="textobuscar"
+                                   id="textobuscar">
+
+                            <!-- Opciones del tipo de búsqueda por fecha -->
+                            <select class="form-select"
+                                    name="categorias"
+                                    id="categorias">
+
+                                <option value="animales">
+                                    De ahí en adelante
+                                </option>
+
+                                <option value="arquitectura">
+                                    De ahí hacia atrás
+                                </option>
+
+                                <option value="programacion">
+                                    Entre estas fechas
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                        <br /> <br />
+
+                        <!-- Botón para ejecutar la búsqueda -->
+                        <button type="submit" class="btn btn-primary">
+                            Buscar
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <br /> <br /> <br /> <br />
+
+        <!-- Pie de página -->
+        <footer>
+
+            <div class="footer-bottom">
+
+                <br />
+
+                <!-- Título de los autores -->
+                <p1> AUTORES DE LA PAGINA: </p1>
+
+                <!-- Nombre de los autores -->
+                <p> Miguel Angel Fernández del Bosque </p>
+
+                <p> Francisco Daniel Mata Mendoza </p>
+
+                <br />
+
+            </div>
+
+        </footer>
+
+    </center>
+
+</body>
+
+</html>

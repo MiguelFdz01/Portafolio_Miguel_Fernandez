@@ -1,0 +1,342 @@
+﻿/* ========================= */
+/* FONDO DE LA PÁGINA */
+/* ========================= */
+
+/* Establece una imagen como fondo de toda la página */
+body {
+    background-image: url("black-and-gray-grunge-texture-background-vector.jpg");
+}
+
+
+/* ========================= */
+/* ENCABEZADO */
+/* ========================= */
+
+/* Da formato a la barra superior de navegación */
+header {
+    display: flex; /* Organiza los elementos horizontalmente */
+    background-color: brown; /* Color de fondo */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 15px; /* Espaciado interno */
+    font-size: 25px; /* Tamaño de letra */
+    justify-content: normal; /* Alineación normal de los elementos */
+}
+
+
+/* ========================= */
+/* BARRA DE NAVEGACIÓN */
+/* ========================= */
+
+/* Estilo general del menú */
+nav {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 25px;
+}
+
+
+/* Personaliza el menú desplegable */
+.form-select {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 50px;
+}
+
+
+/* ========================= */
+/* LOGOTIPO */
+/* ========================= */
+
+/* Contenedor del logotipo */
+.logo {
+    display: flex;
+}
+
+    /* Ajusta el tamaño y separación del logotipo */
+    .logo img {
+        height: 150px;
+        margin-right: 20px;
+    }
+
+
+/* ========================= */
+/* ENLACES DEL MENÚ */
+/* ========================= */
+
+/* Da formato a los enlaces de navegación */
+nav a {
+    padding-right: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 50px;
+}
+
+
+/* ========================= */
+/* TARJETAS */
+/* ========================= */
+
+/* Cambia el color de fondo de las tarjetas Bootstrap */
+.card {
+    background-color: brown;
+}
+
+
+/* ========================= */
+/* CONTENEDOR AUXILIAR */
+/* ========================= */
+
+/* Contenedor pequeño utilizado como referencia */
+.container {
+    width: 5px;
+    height: 5px;
+    background: #ff0000;
+}
+
+
+/* ========================= */
+/* CUADRO DE PERFIL */
+/* ========================= */
+
+/* Da formato al cuadro donde aparece el perfil del usuario */
+.cuadro {
+    background-color: orangered;
+    color: black;
+    width: 225px;
+    height: 175px;
+    padding: 7px;
+    border: 10px solid white;
+    margin-right: 100px;
+    padding-left: 80px;
+    padding-right: 450px;
+    margin-right: 50px;
+    margin-left: 275px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    text-align: left;
+}
+
+
+/* ========================= */
+/* PIE DE PÁGINA */
+/* ========================= */
+
+/* Da formato al footer */
+footer {
+    background-color: dimgrey;
+    height: 205px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 1200px;
+}
+
+    /* Da estilo al título del footer */
+    footer p1 {
+        background-color: darkred;
+        line-height: 15px;
+        font-size: 50px;
+        padding-right: 725px;
+        padding-left: 725px;
+        margin-top: 2850px;
+    }
+
+
+/* ========================= */
+/* MENÚ HORIZONTAL */
+/* ========================= */
+
+/* Coloca los enlaces del menú en una misma fila */
+.parrafoprueba {
+    display: flex;
+    margin-left: auto;
+}
+
+
+/* ========================= */
+/* BOTONES Y SELECT */
+/* ========================= */
+
+/* Personaliza los botones principales */
+.btn-primary {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+/* Ajusta el tamaño del menú desplegable */
+.form-select {
+    margin-right: 15px;
+    padding: 15px;
+    font-size: 100px;
+}
+
+/* Estilo para un botón secundario */
+.btn-primary1 {
+    margin-right: 15px;
+    display: flex;
+    justify-content: normal;
+}
+
+
+/* ========================= */
+/* CONFIGURACIÓN GENERAL */
+/* ========================= */
+
+/* Elimina márgenes y rellenos predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define la fuente principal de la página */
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/* ========================= */
+/* PUBLICACIONES */
+/* ========================= */
+
+/* Contenedor principal de las publicaciones */
+.post-list {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 15px;
+}
+
+/* Organiza las publicaciones en tres columnas */
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    max-width: 10000px;
+    margin: auto;
+}
+
+
+/* ========================= */
+/* IMÁGENES DE LAS PUBLICACIONES */
+/* ========================= */
+
+/* Primera imagen */
+.post-img-1 {
+    background: url(hamburguesa-sencilla-480x270.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+
+/* Segunda imagen */
+.post-img-2 {
+    background: url(988908.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+
+/* Tercera imagen */
+.post-img-3 {
+    background: url(Streaming-música-ingresos-industria-e1614428881228.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+
+
+/* ========================= */
+/* TARJETAS DE PUBLICACIÓN */
+/* ========================= */
+
+/* Da formato a cada publicación */
+.post {
+    box-shadow: 0 1px 6px 1px #ff0000;
+    overflow: hidden;
+    transition: .2s;
+    background-color: crimson;
+}
+
+    /* Efecto cuando el cursor pasa sobre la publicación */
+    .post:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 14px 6px 1px #ff0000;
+    }
+
+/* Encabezado que contiene la imagen */
+.post-header {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/* Amplía ligeramente la imagen al pasar el cursor */
+.post:hover .post-img-1,
+.post:hover .post-img-2,
+.post:hover .post-img-3 {
+    transform: scale(1.5);
+}
+
+
+/* ========================= */
+/* CONTENIDO DE LA PUBLICACIÓN */
+/* ========================= */
+
+/* Da formato al contenido de cada tarjeta */
+.post-body {
+    padding: 15px;
+    text-align: center;
+}
+
+    /* Estilo para la fecha o información adicional */
+    .post-body span {
+        display: inline-block;
+        color: black;
+        margin-bottom: 20px;
+        font-family: 'Arial Narrow Bold', sans-serif;
+    }
+
+    /* Título de la publicación */
+    .post-body h2 {
+        margin-bottom: 25px;
+    }
+
+    /* Descripción de la publicación */
+    .post-body p {
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+    /* Botón o enlace de categoría */
+    .post-body .post-link {
+        display: block;
+        text-decoration: none;
+        padding: 10px;
+        background: orangered;
+        color: black;
+        width: 50%;
+        margin: auto;
+        border-radius: 20px;
+        box-shadow: 1px 2px 6px 1px #ff0000;
+        transition: .2s;
+    }
+
+        /* Cambia el color del botón cuando el cursor pasa sobre él */
+        .post-body .post-link:hover {
+            background: #ff0000;
+            box-shadow: 1px 2px 6px 1px #ff0000;
+            transform: translateY(-2px);
+        }

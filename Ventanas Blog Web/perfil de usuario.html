@@ -1,0 +1,323 @@
+﻿<!DOCTYPE html>
+
+<!-- Indica que el documento utiliza HTML5 -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <!-- Configura la codificación de caracteres para admitir acentos y caracteres especiales -->
+    <meta charset="utf-8" />
+
+    <!-- Título que aparece en la pestaña del navegador -->
+    <title> PERFIL DE USUARIO </title>
+
+    <!-- Hoja de estilos personalizada -->
+    <link rel="stylesheet" href="perfil de usuario.css" />
+
+    <!-- Biblioteca Bootstrap para utilizar componentes y estilos prediseñados -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+          crossorigin="anonymous">
+
+    <!-- Estilos CSS internos para la barra de navegación -->
+    <style>
+
+        /* Contenedor que organiza los enlaces horizontalmente */
+        .parrafoprueba {
+            display: flex;
+        }
+
+        /* Espaciado entre las opciones del menú */
+        .inicio {
+            margin-right: 25px;
+        }
+
+        .crear {
+            margin-right: 25px;
+        }
+
+        .perfil {
+            margin-right: 25px;
+        }
+
+        .cerrar {
+            margin-right: 25px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Encabezado principal de la página -->
+    <header>
+
+        <!-- Contenedor del logotipo -->
+        <div class="logo">
+
+            <!-- Imagen del logotipo -->
+            <img src="av8ao2zs5pq51.jpg" alt="logo" />
+
+        </div>
+
+        <!-- Barra de navegación -->
+        <nav>
+
+            <!-- Contenedor de las opciones del menú -->
+            <div class="parrafoprueba">
+
+                <!-- Enlace al inicio -->
+                <p class="inicio" target="_blank">
+                    <a href="dashboard.html" class="nav-link"> Inicio </a>
+                </p>
+
+                <!-- Enlace para crear una publicación -->
+                <p class="crear" target="_blank">
+                    <a href="crear publicacion.html" class="nav-link"> Crear Publicacion </a>
+                </p>
+
+                <!-- Enlace al perfil del usuario -->
+                <p class="perfil" target="_blank">
+                    <a href="perfil de usuario.html" class="nav-link"> Perfil de Usuario </a>
+                </p>
+
+                <!-- Opción para cerrar sesión -->
+                <p class="cerrar">
+                    <a href="" class="nav-link"> Cerrar Sesion </a>
+                </p>
+
+            </div>
+
+            <!-- Sección de búsqueda de preguntas -->
+            <div class="mb-2">
+
+                <!-- Etiqueta del menú desplegable -->
+                <label for="navegacion">Busqueda de preguntas:</label>
+
+                <!-- Lista desplegable con preguntas -->
+                <select class="form-select" name="navegacion" id="navegacion">
+
+                    <option value="espaciodef"> </option>
+                    <option value="pregunta1">Pregunta 1</option>
+                    <option value="pregunta2">Pregunta 2</option>
+                    <option value="pregunta3">Pregunta 3</option>
+                    <option value="pregunta4">Pregunta 4</option>
+                    <option value="pregunta5">Pregunta 5</option>
+                    <option value="pregunta6">Pregunta 6</option>
+                    <option value="pregunta7">Pregunta 7</option>
+                    <option value="pregunta8">Pregunta 8</option>
+
+                </select>
+
+                <!-- Botón para realizar la búsqueda -->
+                <button type="submit" class="btn btn-primary">
+                    Buscar
+                </button>
+
+                <!-- Formulario que abre la búsqueda avanzada -->
+                <form action="busqueda avanzada.html" target="">
+
+                    <button type="submit" class="btn btn-primary">
+                        Busqueda avanzada
+                    </button>
+
+                </form>
+
+            </div>
+
+        </nav>
+
+        <!-- Cuadro que identifica la sección del perfil -->
+        <div class="cuadro2">
+
+            <p1>Perfil</p1>
+
+        </div>
+
+    </header>
+
+    <br><br><br><br>
+
+    <center>
+
+        <!-- Contenedor principal del formulario -->
+        <div class="cuadro">
+
+            <div class="borde">
+
+                <div id="centro">
+
+                    <!-- Título del formulario -->
+                    <p id="parrafo">PERFIL DE USUARIO</p>
+
+                    <!-- Formulario para visualizar y editar información del usuario -->
+                    <form>
+
+                        <!-- Campo para el nombre de usuario -->
+                        <div class="mb-3">
+
+                            <label class="form-label">Usuario:</label>
+
+                            <input type="email"
+                                   class="form-control"
+                                   id="nombre"
+                                   aria-describedby="nombre">
+
+                            <div id="nombre" class="form-text"></div>
+
+                        </div>
+
+                        <br>
+
+                        <!-- Campo para el nombre -->
+                        <div class="mb-3">
+
+                            <label class="form-label">Nombre:</label>
+
+                            <input type="email"
+                                   class="form-control"
+                                   id="nombre"
+                                   aria-describedby="nombre">
+
+                            <div id="nombre" class="form-text"></div>
+
+                        </div>
+
+                        <br>
+
+                        <!-- Campo para los apellidos -->
+                        <div class="mb-3">
+
+                            <label class="form-label">Apellidos:</label>
+
+                            <input type="email"
+                                   class="form-control"
+                                   id="apellidos"
+                                   aria-describedby="apellidos">
+
+                            <div id="nombre" class="form-text"></div>
+
+                        </div>
+
+                        <br>
+
+                        <!-- Campo para el correo electrónico -->
+                        <div class="mb-3">
+
+                            <label class="form-label">Correo electronico:</label>
+
+                            <input type="email"
+                                   class="form-control"
+                                   id="correo"
+                                   aria-describedby="correo">
+
+                            <div id="correo" class="form-text"></div>
+
+                        </div>
+
+                        <br>
+
+                        <!-- Campo para mostrar la edad -->
+                        <div class="mb-3">
+
+                            <label class="form-label">Edad:</label>
+
+                            <input type="email"
+                                   class="form-control"
+                                   id="correo"
+                                   aria-describedby="correo">
+
+                            <div id="correo" class="form-text"></div>
+
+                        </div>
+
+                        <br>
+
+                        <!-- Campo para la fecha de nacimiento -->
+                        <div class="mb-3">
+
+                            <label class="form-label">Fecha de nacimiento:</label>
+
+                            <input type="email"
+                                   class="form-control"
+                                   id="fechanac"
+                                   aria-describedby="fechanac">
+
+                            <div id="fechanac" class="form-text"></div>
+
+                        </div>
+
+                        <br>
+
+                        <!-- Campo para modificar la contraseña -->
+                        <div class="mb-3">
+
+                            <label class="form-label">Contraseña:</label>
+
+                            <input type="password"
+                                   class="form-control"
+                                   id="contraseña"
+                                   aria-describedby="contraseña">
+
+                            <div id="contraseña" class="form-text"></div>
+
+                        </div>
+
+                        <br>
+
+                        <!-- Campo para seleccionar una imagen de perfil -->
+                        <div class="mb-3">
+
+                            <label class="form-label">Imagen de perfil:</label>
+
+                            <input type="file"
+                                   class="form-control"
+                                   name="agregarFoto"
+                                   id="agregarFoto">
+
+                        </div>
+
+                        <br><br>
+
+                        <!-- Botón para guardar los cambios realizados -->
+                        <button type="submit" class="btn btn-primary">
+                            Editar
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <br><br>
+
+        <!-- Pie de página -->
+        <footer>
+
+            <div class="footer-bottom">
+
+                <br>
+
+                <!-- Título del apartado de autores -->
+                <p1>AUTORES DE LA PAGINA:</p1>
+
+                <!-- Nombre de los desarrolladores -->
+                <p>Miguel Angel Fernández del Bosque</p>
+
+                <p>Francisco Daniel Mata Mendoza</p>
+
+                <br>
+
+            </div>
+
+        </footer>
+
+    </center>
+
+</body>
+
+</html>

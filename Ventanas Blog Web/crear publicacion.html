@@ -1,0 +1,272 @@
+﻿<!DOCTYPE html>
+
+<!-- Indica que el documento está escrito en HTML5 -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <!-- Configura la codificación de caracteres en UTF-8 -->
+    <meta charset="utf-8" />
+
+    <!-- Título que aparece en la pestaña del navegador -->
+    <title> CREAR PUBLICACION </title>
+
+    <!-- Enlace al archivo de estilos CSS personalizado -->
+    <link rel="stylesheet" href="crear publicacion.css" />
+
+    <!-- Enlace a la librería Bootstrap para utilizar sus estilos y componentes -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+          crossorigin="anonymous">
+
+    <!-- Estilos internos para separar los elementos del menú -->
+    <style>
+
+        /* Organiza las opciones del menú de forma horizontal */
+        .parrafoprueba {
+            display: flex;
+        }
+
+        /* Agrega espacio entre cada opción del menú */
+        .inicio {
+            margin-right: 25px;
+        }
+
+        .crear {
+            margin-right: 25px;
+        }
+
+        .perfil {
+            margin-right: 25px;
+        }
+
+        .cerrar {
+            margin-right: 25px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Encabezado principal de la página -->
+    <header>
+
+        <!-- Contenedor del logotipo -->
+        <div class="logo">
+
+            <!-- Imagen del logotipo -->
+            <img src="av8ao2zs5pq51.jpg" alt="logo" />
+
+        </div>
+
+        <!-- Barra de navegación -->
+        <nav>
+
+            <!-- Contenedor con las opciones del menú -->
+            <div class="parrafoprueba">
+
+                <!-- Enlace a la página principal -->
+                <p class="inicio">
+                    <a href="dashboard.html" class="nav-link" target=""> Inicio </a>
+                </p>
+
+                <!-- Enlace a la página para crear publicaciones -->
+                <p class="crear">
+                    <a href="crear publicacion.html" class="nav-link" target=""> Crear Publicacion </a>
+                </p>
+
+                <!-- Enlace al perfil del usuario -->
+                <p class="perfil">
+                    <a href="perfil de usuario.html" class="nav-link" target=""> Perfil de Usuario </a>
+                </p>
+
+                <!-- Enlace para cerrar sesión -->
+                <p class="cerrar">
+                    <a href="" class="nav-link"> Cerrar Sesion </a>
+                </p>
+
+            </div>
+
+            <!-- Área de búsqueda rápida -->
+            <div class="mb-2">
+
+                <!-- Etiqueta del menú desplegable -->
+                <label for="navegacion">Busqueda de preguntas:</label>
+
+                <!-- Lista de preguntas disponibles -->
+                <select class="form-select" name="navegacion" id="navegacion">
+
+                    <option value="espaciodef"> </option>
+                    <option value="pregunta1">Pregunta 1</option>
+                    <option value="pregunta2">Pregunta 2</option>
+                    <option value="pregunta3">Pregunta 3</option>
+                    <option value="pregunta4">Pregunta 4</option>
+                    <option value="pregunta5">Pregunta 5</option>
+                    <option value="pregunta6">Pregunta 6</option>
+                    <option value="pregunta7">Pregunta 7</option>
+                    <option value="pregunta8">Pregunta 8</option>
+
+                </select>
+
+                <!-- Botón para realizar la búsqueda -->
+                <button type="submit" class="btn btn-primary">
+                    Buscar
+                </button>
+
+                <!-- Formulario que redirige a la búsqueda avanzada -->
+                <form action="busqueda avanzada.html" target="">
+
+                    <button type="submit" class="btn btn-primary">
+                        Busqueda avanzada
+                    </button>
+
+                </form>
+
+            </div>
+
+        </nav>
+
+        <!-- Cuadro donde se muestra el perfil del usuario -->
+        <div class="cuadro2">
+
+            <p1>Perfil</p1>
+
+        </div>
+
+    </header>
+
+    <!-- Saltos de línea para separar el contenido -->
+    <br><br><br><br>
+
+    <!-- Centra el contenido principal -->
+    <center>
+
+        <!-- Contenedor principal del formulario -->
+        <div class="cuadro">
+
+            <div class="borde">
+
+                <div id="centro">
+
+                    <!-- Título del formulario -->
+                    <p id="parrafo">CREAR PUBLICACION</p>
+
+                    <!-- Formulario para crear una publicación -->
+                    <form>
+
+                        <!-- Campo para escribir el título -->
+                        <div class="mb-3">
+
+                            <label for="titulo">Título:</label>
+
+                            <input type="text"
+                                   class="form-control"
+                                   name="titulo"
+                                   id="titulo">
+
+                        </div>
+
+                        <br>
+
+                        <!-- Campo para escribir la descripción -->
+                        <div class="mb-2">
+
+                            <label for="descripcion">Descripción:</label>
+
+                            <textarea class="form-control"
+                                      name="descripcion"
+                                      id="descripcion"></textarea>
+
+                        </div>
+
+                        <div class="mb-2">
+
+                            <br>
+
+                            <!-- Lista desplegable para elegir la categoría -->
+                            <label for="categorias">
+                                Seleccione la categoría:
+                            </label>
+
+                            <select class="form-select"
+                                    name="categorias"
+                                    id="categorias">
+
+                                <option value="animales">Animales</option>
+                                <option value="arquitectura">Arquitectura</option>
+                                <option value="programacion">Programacion</option>
+                                <option value="videojuegos">Videojuegos</option>
+                                <option value="tecnologia">Tecnología</option>
+                                <option value="musica">Música</option>
+                                <option value="deportes">Deportes</option>
+                                <option value="automoviles">Automoviles</option>
+                                <option value="ropa">Ropa</option>
+                                <option value="cultura">Cultura</option>
+                                <option value="gastronomia">Gastronomía</option>
+                                <option value="memes">Memes</option>
+
+                            </select>
+
+                        </div>
+
+                        <br><br>
+
+                        <!-- Campo para seleccionar una imagen desde el equipo -->
+                        <div class="mb-2">
+
+                            <label for="agregarFoto">
+                                Agregar foto a la publicación:
+                            </label>
+
+                            <input type="file"
+                                   class="form-control"
+                                   name="agregarFoto"
+                                   id="agregarFoto">
+
+                        </div>
+
+                        <br><br>
+
+                        <!-- Botón para enviar la publicación -->
+                        <button type="submit" class="btn btn-primary">
+                            Publicar
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <br><br><br><br>
+
+        <!-- Pie de página -->
+        <footer>
+
+            <div class="footer-bottom">
+
+                <br>
+
+                <!-- Título del apartado de autores -->
+                <p1>AUTORES DE LA PAGINA:</p1>
+
+                <!-- Lista de autores -->
+                <p>Miguel Angel Fernández del Bosque</p>
+
+                <p>Francisco Daniel Mata Mendoza</p>
+
+                <br>
+
+            </div>
+
+        </footer>
+
+    </center>
+
+</body>
+
+</html>

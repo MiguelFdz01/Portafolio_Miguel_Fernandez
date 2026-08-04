@@ -1,0 +1,252 @@
+﻿<!DOCTYPE html>
+<!-- Indica que el documento utiliza HTML5 -->
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <!-- Configuración de caracteres para admitir acentos y caracteres especiales -->
+    <meta charset="UTF-8">
+
+    <!-- Hace compatible la página con Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Permite que la página sea adaptable a dispositivos móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título que aparece en la pestaña del navegador -->
+    <title> DASHBOARD </title>
+
+    <!-- Hoja de estilos personalizada -->
+    <link rel="stylesheet" href="dashboard.css" />
+
+    <!-- Biblioteca Bootstrap para utilizar estilos prediseñados -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+          crossorigin="anonymous">
+
+    <!-- Estilos internos para separar los elementos del menú -->
+    <style>
+
+        /* Organiza los enlaces del menú de forma horizontal */
+        .parrafoprueba {
+            display: flex;
+        }
+
+        /* Espaciado entre cada opción del menú */
+        .inicio {
+            margin-right: 25px;
+        }
+
+        .crear {
+            margin-right: 25px;
+        }
+
+        .perfil {
+            margin-right: 25px;
+        }
+
+        .cerrar {
+            margin-right: 25px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Encabezado principal -->
+    <header>
+
+        <!-- Contenedor del logotipo -->
+        <div class="logo">
+
+            <!-- Imagen del logotipo -->
+            <img src="av8ao2zs5pq51.jpg" alt="logo" />
+
+        </div>
+
+        <!-- Barra de navegación -->
+        <nav>
+
+            <!-- Contenedor de las opciones del menú -->
+            <div class="parrafoprueba">
+
+                <!-- Enlace a la página principal -->
+                <p class="inicio">
+                    <a href="dashboard.html" class="nav-link"> Inicio </a>
+                </p>
+
+                <!-- Enlace para crear una publicación -->
+                <p class="crear">
+                    <a href="crear publicacion.html" class="nav-link"> Crear Publicacion </a>
+                </p>
+
+                <!-- Enlace al perfil del usuario -->
+                <p class="perfil">
+                    <a href="perfil de usuario.html" class="nav-link"> Perfil de Usuario </a>
+                </p>
+
+                <!-- Enlace para cerrar sesión -->
+                <p class="cerrar">
+                    <a href="" class="nav-link"> Cerrar Sesion </a>
+                </p>
+
+            </div>
+
+            <!-- Área de búsqueda -->
+            <div class="mb-2">
+
+                <!-- Etiqueta del selector -->
+                <label for="navegacion">Busqueda de preguntas:</label>
+
+                <!-- Lista desplegable con preguntas -->
+                <select class="form-select" name="navegacion" id="navegacion">
+
+                    <option value="espaciodef"></option>
+                    <option value="pregunta1">Pregunta 1</option>
+                    <option value="pregunta2">Pregunta 2</option>
+                    <option value="pregunta3">Pregunta 3</option>
+                    <option value="pregunta4">Pregunta 4</option>
+                    <option value="pregunta5">Pregunta 5</option>
+                    <option value="pregunta6">Pregunta 6</option>
+                    <option value="pregunta7">Pregunta 7</option>
+                    <option value="pregunta8">Pregunta 8</option>
+
+                </select>
+
+                <!-- Botón para realizar la búsqueda -->
+                <button type="submit" class="btn btn-primary">
+                    Buscar
+                </button>
+
+                <!-- Formulario que abre la búsqueda avanzada -->
+                <form action="busqueda avanzada.html">
+
+                    <button type="submit" class="btn btn-primary">
+                        Busqueda avanzada
+                    </button>
+
+                </form>
+
+            </div>
+
+        </nav>
+
+        <!-- Cuadro donde se muestra el perfil -->
+        <div class="cuadro">
+
+            <p1>Perfil</p1>
+
+        </div>
+
+    </header>
+
+    <!-- Sección donde se muestran las publicaciones -->
+    <section class="post-list">
+
+        <!-- Contenedor de todas las publicaciones -->
+        <div class="content">
+
+            <!-- Primera publicación -->
+            <article class="post">
+
+                <!-- Encabezado de la publicación -->
+                <div class="post-header">
+
+                    <!-- Imagen de la publicación (definida en CSS) -->
+                    <div class="post-img-1"></div>
+
+                </div>
+
+                <!-- Contenido de la publicación -->
+                <div class="post-body">
+
+                    <h2>Hamburguesa</h2>
+
+                    <p>
+                        Esta hamburguesa es muy buena, pero preferiría una Western Bacon.
+                    </p>
+
+                    <!-- Categoría -->
+                    <a href="#" class="post-link">Gastronomía</a>
+
+                </div>
+
+            </article>
+
+            <!-- Segunda publicación -->
+            <article class="post">
+
+                <div class="post-header">
+                    <div class="post-img-2"></div>
+                </div>
+
+                <div class="post-body">
+
+                    <h2>Overwatch</h2>
+
+                    <p>
+                        Ashe es mi personaje favorito.
+                    </p>
+
+                    <a href="#" class="post-link">Videojuegos</a>
+
+                </div>
+
+            </article>
+
+            <!-- Tercera publicación -->
+            <article class="post">
+
+                <div class="post-header">
+                    <div class="post-img-3"></div>
+                </div>
+
+                <div class="post-body">
+
+                    <h2>Música</h2>
+
+                    <p>
+                        Casi siempre escucho música.
+                    </p>
+
+                    <a href="#" class="post-link">Música</a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+    <!-- Archivo JavaScript que controla el comportamiento del Dashboard -->
+    <script src="dashboard.js"></script>
+
+    <br><br>
+
+    <!-- Pie de página -->
+    <footer>
+
+        <div class="footer-bottom">
+
+            <br>
+
+            <!-- Título de los autores -->
+            <p1>AUTORES DE LA PAGINA:</p1>
+
+            <!-- Nombre de los desarrolladores -->
+            <p>Miguel Angel Fernández del Bosque</p>
+
+            <p>Francisco Daniel Mata Mendoza</p>
+
+            <br>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
